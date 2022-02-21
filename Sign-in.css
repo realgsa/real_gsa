@@ -1,0 +1,21 @@
+div.Title {
+font-family: Impact;
+text-align: center;
+font-size: 33px;
+}
+body {
+    background-color: orange;
+}
+div.form {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 33px;
+}
+div.input1 {
+    font-size: 33px;
+}
+#fname {
+    width: 73%;
+    height: 20%;
+    background-color: rgba(23, 119, 136, 0.562);
+}

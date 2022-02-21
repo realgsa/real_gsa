@@ -1,0 +1,18 @@
+<html>
+<body>
+  <h1>Hello</h1>
+<p id="full-name">x</p>
+<link rel ="stylesheet" type="text/css" href = "homestyle.css">
+<script>
+    let fullName = document.getElementById('full-name')
+    let url = window.location.href
+    let firstName = url.split("?")[1].split("&")[0].split("=")[1]
+    let lastName = url.split("?")[1].split("&")[1].split("=")[1]
+
+    fullName.innerHTML = firstName +" "+ lastName
+</script>
+<hr>
+<p>Social Links</p>
+<hr>
+    <button><a href="SocialDS.html">Discord Server</a></button>
+</html>

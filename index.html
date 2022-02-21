@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Verify User</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="allcursor.css">
+    </head>
+    <body>
+      <div class="all">
+      </script>
+        <p id="prompt">Enter The Verification password (if you are at dwight and forgot the password contact 2000249@dwight.or.kr)</p>
+        <input id="guess" type="text" value=" " />
+        <input type="button" value="Guess" onclick="verify();" id="press"/>
+        <button id="verified" style="visibility: hidden;" onclick="redirect()">Main Page</button>
+        <p id="log"></p>
+        <script>
+          function redirect() {
+          window.location.href = "./Newsite.html";
+          }
+        </script>
+        <script src="main.js">
+const log = document.getElementById('guess');
+
+log.addEventListener('keydown', logKey);
+
+function logKey(e) {
+  log.textContent += ` ${e.code}`;
+}
+        </script>
+   
+          </style>
+        </div>
+           </body>
+</html>
